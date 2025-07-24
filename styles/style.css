@@ -98,3 +98,68 @@
   padding: 19px 80px;
   border: none;
 }
+.Deals {
+  text-align: center;
+  margin-top: 135px;
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+}
+.newsletter-section {
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.content {
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.content h1 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.content h1 span {
+  font-weight: normal;
+}
+
+.content h1 strong {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 12px;
+  width: 300px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.subscribe-form button {
+  padding: 12px 20px;
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+
+  font-size: 16px;
+  cursor: pointer;
+}
