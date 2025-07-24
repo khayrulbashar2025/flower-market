@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* common-style */
+.display-flex {
+  display: flex;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.orange {
+  color: #e95a08;
+}
+.rgb {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* navbar-start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 30px;
+}
+.logo {
+  height: 82px;
+}
+.nav-links {
+  list-style: none;
+  gap: 20px;
+  font-weight: 700rem;
+}
+.nav-links li {
+  font-weight: 600;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+/* banner-section */
+.banner {
+  display: flex;
+  align-items: end;
+
+  margin-top: 100px;
+}
+.banner-title {
+  font-size: 65px;
+  font-weight: bold;
+}
+.banner-discription {
+  font-size: 22px;
+  max-width: 65%;
+}
+.banner-right {
+  width: 50%;
+}
+.banner-right img {
+  display: block;
+}
+.our-planats {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.our-planats .title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.discription {
+  text-align: center;
+  font-size: 22px;
+}
+.card {
+  /* text-align: center; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card-body {
+}
+.usd {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 75px;
+}
+.flower-name {
+  padding: 10px 72px;
+}
+
+.btn {
+  background-color: #e95a08;
+  color: white;
+  width: 272px;
+  padding: 19px 80px;
+  border: none;
+}
